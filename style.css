@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calcObj {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    height: 70vh;
+    width: 70vw;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+#lowerPart {
+    display: flex;
+    flex: 1 1 auto;
+    border: 1px solid white;
+    margin: 20px;
+    width: 80%;
+}
+
+.screen {
+    display: flex;
+    flex: 1 1 0;
+    max-height: 70px;
+    width: 80%;
+    margin: 20px;
+    padding-left:20px ;
+    border: 1px solid white;
+
+}
+
+.numPad {
+    display: flex;
+    flex: 1 1 auto;
+    border: 1px solid white;
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+
+.operators {
+    display: flex;
+    flex: 1;
+    border: 1px solid white;
+    margin: 20px;
+    flex-direction: column;
+
+}
+
+#num {
+    border: 1px solid white;
+    padding: 15px;
+    margin: 5px;
+    flex-wrap: wrap;
+    height: 10px;
+    width: 90px;
+}
+
+#op, .eq {
+    border: 1px solid white;
+    padding: 15px;
+    margin: 5px;
+    flex-wrap: wrap;
+    height: 10px;
+    width: 40px;
+}
