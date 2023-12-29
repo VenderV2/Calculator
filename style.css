@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 #calcObj {
@@ -19,7 +20,7 @@ body {
 #lowerPart {
     display: flex;
     flex: 1 1 auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 20px;
     width: 80%;
 }
@@ -38,7 +39,7 @@ body {
 .numPad {
     display: flex;
     flex: 1 1 auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 20px;
     flex-wrap: wrap;
 
@@ -47,7 +48,7 @@ body {
 .operators {
     display: flex;
     flex: 1;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 20px;
     flex-direction: column;
 

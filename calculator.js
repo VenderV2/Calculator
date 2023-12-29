@@ -1,8 +1,6 @@
 let num1;
-let num2;
 let operator;
 let input1;
-let input2;
 let array = [];
 
 let screen = document.querySelector('.screen')
@@ -42,5 +40,6 @@ calc.addEventListener('click', () => {
 
 function calculate() {
     let result = array.reduce( (initialValue, currentValue) => initialValue + currentValue)
+    console.log(eval(result));
     return eval(result);
 };
