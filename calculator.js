@@ -12,7 +12,7 @@ number.forEach(element => {
         input1 = input1 + element.textContent;
         num1 = input1.replace('undefined','')
         console.log(num1)
-        screen.textContent = screen.textContent + num1;
+        screen.textContent =  + num1;
     })
 });
 

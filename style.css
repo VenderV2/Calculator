@@ -45,6 +45,14 @@ body {
 
 }
 
+#num:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+#num:active {
+    background-color: orange;
+}
+
 .operators {
     display: flex;
     flex: 1;
